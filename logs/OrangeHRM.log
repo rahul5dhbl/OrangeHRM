@@ -1,0 +1,542 @@
+[INFO ] 2022-03-25 10:41:32.541 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-25 10:41:34.094 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-25 10:41:40.537 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-25 10:41:40.604 [main] MainDriver - Successfully entered in textbox --> admin
+[INFO ] 2022-03-25 10:41:40.643 [main] MainDriver - Exception in LoginElements --> login_passwordorg.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id='//input[@id='txtPassword'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='//input[@id='txtPassword']' is not a valid XPath expression.
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ed3bb14cdda2719f5512ace1a57a04b, findElement {using=xpath, value=//input[@id='//input[@id='txtPassword']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60044}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60044/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed3bb14cdda2719f5512ace1a57a04b
+[INFO ] 2022-03-25 10:41:40.644 [main] MainDriver - Failed to enter text in textbox : admin123
+[INFO ] 2022-03-25 10:41:40.656 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-25 10:41:43.713 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-25 10:41:51.123 [main] MainDriver - Text : Welcome is present on the current page
+[INFO ] 2022-03-25 10:41:51.123 [main] MainDriver - Logged in to OrangeHRM successfully
+[INFO ] 2022-03-25 10:41:51.149 [main] MainDriver - Webelement found --> logout_welcome
+[INFO ] 2022-03-25 10:41:52.198 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-25 10:41:52.219 [main] MainDriver - Webelement found --> logout
+[INFO ] 2022-03-25 10:41:55.060 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-25 10:41:55.310 [main] MainDriver - All Browsers closed successfully
+[ERROR] 2022-03-25 15:18:04.133 [main] MainDriver - Exception in ReportingActions --> startRegPack : java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "x" is null
+[INFO ] 2022-03-25 15:18:04.143 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[ERROR] 2022-03-25 15:18:05.219 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:18:11.767 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:18:11.811 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:19:38.281 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:19:38.586 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:19:38.608 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:19:41.674 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:20:02.098 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:20:02.498 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:20:22.736 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:20:22.931 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:20:43.166 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:20:43.306 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:20:43.494 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:32.506 [main] MainDriver - Exception in ReportingActions --> startRegPack : java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "x" is null
+[INFO ] 2022-03-25 15:34:32.519 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[ERROR] 2022-03-25 15:34:33.575 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:40.432 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:40.473 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:40.482 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:40.522 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:40.536 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:47.576 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:47.606 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:47.607 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:47.623 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:48.653 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:48.672 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:51.532 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:34:51.657 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:45:34.399 [main] MainDriver - Exception in ReportingActions --> startRegPack : java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "x" is null
+[INFO ] 2022-03-25 15:45:34.408 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[ERROR] 2022-03-25 15:45:35.628 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:45:42.549 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:45:42.591 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:45:42.602 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:45:42.640 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:45:42.651 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:45:47.010 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:46:07.198 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:46:07.312 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:46:27.516 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:46:27.660 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:46:47.824 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:46:47.995 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String, com.aventstack.extentreports.model.Media)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:46:48.124 [main] MainDriver - Exception in ReportingActions --> passReport : java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because "com.orange.utils.ReportingActions.test" is null
+[ERROR] 2022-03-25 15:55:53.654 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[ERROR] 2022-03-25 15:55:53.661 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[ERROR] 2022-03-25 15:55:53.666 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[ERROR] 2022-03-25 15:55:53.667 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[ERROR] 2022-03-25 15:55:53.667 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[ERROR] 2022-03-25 15:55:53.667 [main] MainDriver - Exception in ReportingActions --> failReport : java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-03-25 15:56:10.554 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-25 15:56:11.679 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-25 15:56:18.509 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-25 15:56:18.557 [main] MainDriver - Successfully entered in textbox --> admin
+[INFO ] 2022-03-25 15:56:18.570 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-25 15:56:18.610 [main] MainDriver - Successfully entered in textbox --> admin123
+[INFO ] 2022-03-25 15:56:18.620 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-25 15:56:22.982 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-25 15:56:43.132 [main] MainDriver - Text : Welcome is not present on the current page
+[INFO ] 2022-03-25 15:56:43.246 [main] MainDriver - Login to OrangeHRM failed
+[INFO ] 2022-03-25 15:57:03.474 [main] MainDriver - Exception in LoginElements --> logout_welcomeorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='welcome']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0ef7c375f0aa57c241fc12d6c8d154f, findElement {using=xpath, value=//a[@id='welcome']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60662/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a0ef7c375f0aa57c241fc12d6c8d154f
+[INFO ] 2022-03-25 15:57:03.641 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 15:57:23.841 [main] MainDriver - Exception in LoginElements --> logoutorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0ef7c375f0aa57c241fc12d6c8d154f, findElement {using=xpath, value=//a[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60662/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a0ef7c375f0aa57c241fc12d6c8d154f
+[INFO ] 2022-03-25 15:57:23.999 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 15:57:24.124 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-25 16:11:56.957 [main] MainDriver - ------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-25 16:11:56.961 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-25 16:11:58.082 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-25 16:12:05.017 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-25 16:12:05.063 [main] MainDriver - Successfully entered in textbox --> admin
+[INFO ] 2022-03-25 16:12:05.075 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-25 16:12:05.119 [main] MainDriver - Successfully entered in textbox --> admin123
+[INFO ] 2022-03-25 16:12:05.130 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-25 16:12:09.571 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-25 16:12:29.742 [main] MainDriver - Text : Welcome is not present on the current page
+[INFO ] 2022-03-25 16:12:29.844 [main] MainDriver - Login to OrangeHRM failed
+[INFO ] 2022-03-25 16:12:49.986 [main] MainDriver - Exception in LoginElements --> logout_welcomeorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='welcome']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ddd1bb39df5bd377a655bd3e44703e90, findElement {using=xpath, value=//a[@id='welcome']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60742/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddd1bb39df5bd377a655bd3e44703e90
+[INFO ] 2022-03-25 16:12:50.097 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 16:13:10.278 [main] MainDriver - Exception in LoginElements --> logoutorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ddd1bb39df5bd377a655bd3e44703e90, findElement {using=xpath, value=//a[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60742/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddd1bb39df5bd377a655bd3e44703e90
+[INFO ] 2022-03-25 16:13:10.372 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 16:13:10.496 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-25 16:34:20.297 [main] MainDriver - ------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-25 16:34:20.302 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-25 16:34:21.536 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-25 16:34:27.570 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-25 16:34:27.616 [main] MainDriver - Successfully entered in textbox --> Admin
+[INFO ] 2022-03-25 16:34:27.629 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-25 16:34:27.670 [main] MainDriver - Successfully entered in textbox --> MockMsys@123
+[INFO ] 2022-03-25 16:34:27.681 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-25 16:34:32.550 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-25 16:34:32.572 [main] MainDriver - Text : Welcome is present on the current page
+[INFO ] 2022-03-25 16:34:32.572 [main] MainDriver - Logged in to OrangeHRM successfully
+[INFO ] 2022-03-25 16:34:32.585 [main] MainDriver - Webelement found --> logout_welcome
+[INFO ] 2022-03-25 16:34:33.631 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-25 16:34:33.647 [main] MainDriver - Webelement found --> logout
+[INFO ] 2022-03-25 16:34:38.045 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-25 16:34:38.229 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-25 19:49:18.714 [main] MainDriver - 
+------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-25 19:49:18.719 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-25 19:49:20.201 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-25 19:50:02.633 [main] MainDriver - Failed to Setup Before Test
+[ERROR] 2022-03-25 19:50:02.640 [main] MainDriver - Exception in Login --> setUpBeforeTest : org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f1dea3648b0a0b78ac49bf393d097f2, get {url=http://172.30.46.186/orangehrm-4.10/symfony/web/index.php/dashboard}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65011/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f1dea3648b0a0b78ac49bf393d097f2
+[INFO ] 2022-03-25 19:50:02.758 [main] MainDriver - Webelement not found : login_userId
+[ERROR] 2022-03-25 19:50:02.759 [main] MainDriver - Exception in LoginElements --> login_userId : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsername']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f1dea3648b0a0b78ac49bf393d097f2, findElement {using=xpath, value=//input[@id='txtUsername']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65011/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f1dea3648b0a0b78ac49bf393d097f2
+[INFO ] 2022-03-25 19:50:02.854 [main] MainDriver - Failed to enter text in textbox : Admin
+[INFO ] 2022-03-25 19:50:02.952 [main] MainDriver - Webelement not found : login_password
+[ERROR] 2022-03-25 19:50:02.953 [main] MainDriver - Exception in LoginElements --> login_password : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtPassword']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f1dea3648b0a0b78ac49bf393d097f2, findElement {using=xpath, value=//input[@id='txtPassword']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65011/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f1dea3648b0a0b78ac49bf393d097f2
+[INFO ] 2022-03-25 19:50:03.037 [main] MainDriver - Failed to enter text in textbox : MockMsys@123
+[INFO ] 2022-03-25 19:50:03.138 [main] MainDriver - Webelement not found : login_button
+[ERROR] 2022-03-25 19:50:03.138 [main] MainDriver - Exception in LoginElements --> login_button : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='btnLogin']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f1dea3648b0a0b78ac49bf393d097f2, findElement {using=xpath, value=//input[@id='btnLogin']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65011/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f1dea3648b0a0b78ac49bf393d097f2
+[INFO ] 2022-03-25 19:50:03.218 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 19:50:03.321 [main] MainDriver - Text : Welcome is not present on the current page
+[INFO ] 2022-03-25 19:50:03.404 [main] MainDriver - Login to OrangeHRM failed
+[INFO ] 2022-03-25 19:50:03.519 [main] MainDriver - Webelement not found : logout_welcome
+[ERROR] 2022-03-25 19:50:03.520 [main] MainDriver - Exception in LoginElements --> logout_welcome : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='welcome']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f1dea3648b0a0b78ac49bf393d097f2, findElement {using=xpath, value=//a[@id='welcome']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65011/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f1dea3648b0a0b78ac49bf393d097f2
+[INFO ] 2022-03-25 19:50:03.601 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 19:50:03.702 [main] MainDriver - Webelement not found : logout
+[ERROR] 2022-03-25 19:50:03.702 [main] MainDriver - Exception in LoginElements --> logout : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f1dea3648b0a0b78ac49bf393d097f2, findElement {using=xpath, value=//a[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65011/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f1dea3648b0a0b78ac49bf393d097f2
+[INFO ] 2022-03-25 19:50:03.785 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 19:50:03.915 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-25 19:50:38.380 [main] MainDriver - 
+------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-25 19:50:38.385 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-25 19:50:39.857 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-25 19:51:22.305 [main] MainDriver - Failed to Setup Before Test
+[ERROR] 2022-03-25 19:51:22.311 [main] MainDriver - Exception in Login --> setUpBeforeTest : org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb0d56c00d8810b8e768f19e4666a7d9, get {url=http://172.30.46.186/orangehrm-4.10/symfony/web/index.php/dashboard}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62831/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb0d56c00d8810b8e768f19e4666a7d9
+[INFO ] 2022-03-25 19:51:22.438 [main] MainDriver - Webelement not found : login_userId
+[ERROR] 2022-03-25 19:51:22.439 [main] MainDriver - Exception in LoginElements --> login_userId : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsername']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb0d56c00d8810b8e768f19e4666a7d9, findElement {using=xpath, value=//input[@id='txtUsername']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62831/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb0d56c00d8810b8e768f19e4666a7d9
+[INFO ] 2022-03-25 19:51:22.531 [main] MainDriver - Failed to enter text in textbox : Admin
+[INFO ] 2022-03-25 19:51:22.658 [main] MainDriver - Webelement not found : login_password
+[ERROR] 2022-03-25 19:51:22.658 [main] MainDriver - Exception in LoginElements --> login_password : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtPassword']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb0d56c00d8810b8e768f19e4666a7d9, findElement {using=xpath, value=//input[@id='txtPassword']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62831/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb0d56c00d8810b8e768f19e4666a7d9
+[INFO ] 2022-03-25 19:51:22.750 [main] MainDriver - Failed to enter text in textbox : MockMsys@123
+[INFO ] 2022-03-25 19:51:22.867 [main] MainDriver - Webelement not found : login_button
+[ERROR] 2022-03-25 19:51:22.868 [main] MainDriver - Exception in LoginElements --> login_button : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='btnLogin']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb0d56c00d8810b8e768f19e4666a7d9, findElement {using=xpath, value=//input[@id='btnLogin']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62831/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb0d56c00d8810b8e768f19e4666a7d9
+[INFO ] 2022-03-25 19:51:22.962 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 19:51:23.083 [main] MainDriver - Text : Welcome is not present on the current page
+[INFO ] 2022-03-25 19:51:23.186 [main] MainDriver - Login to OrangeHRM failed
+[INFO ] 2022-03-25 19:51:23.300 [main] MainDriver - Webelement not found : logout_welcome
+[ERROR] 2022-03-25 19:51:23.300 [main] MainDriver - Exception in LoginElements --> logout_welcome : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='welcome']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb0d56c00d8810b8e768f19e4666a7d9, findElement {using=xpath, value=//a[@id='welcome']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62831/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb0d56c00d8810b8e768f19e4666a7d9
+[INFO ] 2022-03-25 19:51:23.377 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 19:51:23.479 [main] MainDriver - Webelement not found : logout
+[ERROR] 2022-03-25 19:51:23.479 [main] MainDriver - Exception in LoginElements --> logout : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb0d56c00d8810b8e768f19e4666a7d9, findElement {using=xpath, value=//a[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62831/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb0d56c00d8810b8e768f19e4666a7d9
+[INFO ] 2022-03-25 19:51:23.566 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 19:51:23.754 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-25 20:09:58.308 [main] MainDriver - 
+------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-25 20:09:58.313 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-25 20:09:59.713 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-25 20:10:42.708 [main] MainDriver - Failed to Setup Before Test
+[ERROR] 2022-03-25 20:10:42.713 [main] MainDriver - Exception in Login --> setUpBeforeTest : org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162629864dd62499565414493276a05d, get {url=http://172.30.46.186/orangehrm-4.10/symfony/web/index.php/dashboard}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62834/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 162629864dd62499565414493276a05d
+[INFO ] 2022-03-25 20:10:42.884 [main] MainDriver - Webelement not found : login_userId
+[ERROR] 2022-03-25 20:10:42.885 [main] MainDriver - Exception in LoginElements --> login_userId : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsername']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162629864dd62499565414493276a05d, findElement {using=xpath, value=//input[@id='txtUsername']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62834/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 162629864dd62499565414493276a05d
+[INFO ] 2022-03-25 20:10:43.014 [main] MainDriver - Failed to enter text in textbox : Admin
+[INFO ] 2022-03-25 20:10:43.158 [main] MainDriver - Webelement not found : login_password
+[ERROR] 2022-03-25 20:10:43.159 [main] MainDriver - Exception in LoginElements --> login_password : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtPassword']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162629864dd62499565414493276a05d, findElement {using=xpath, value=//input[@id='txtPassword']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62834/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 162629864dd62499565414493276a05d
+[INFO ] 2022-03-25 20:10:43.273 [main] MainDriver - Failed to enter text in textbox : MockMsys@123
+[INFO ] 2022-03-25 20:10:43.420 [main] MainDriver - Webelement not found : login_button
+[ERROR] 2022-03-25 20:10:43.421 [main] MainDriver - Exception in LoginElements --> login_button : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='btnLogin']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162629864dd62499565414493276a05d, findElement {using=xpath, value=//input[@id='btnLogin']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62834/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 162629864dd62499565414493276a05d
+[INFO ] 2022-03-25 20:10:43.540 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 20:10:43.687 [main] MainDriver - Text : Welcome is not present on the current page
+[INFO ] 2022-03-25 20:10:43.819 [main] MainDriver - Login to OrangeHRM failed
+[INFO ] 2022-03-25 20:10:43.989 [main] MainDriver - Webelement not found : logout_welcome
+[ERROR] 2022-03-25 20:10:43.989 [main] MainDriver - Exception in LoginElements --> logout_welcome : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='welcome']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162629864dd62499565414493276a05d, findElement {using=xpath, value=//a[@id='welcome']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62834/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 162629864dd62499565414493276a05d
+[INFO ] 2022-03-25 20:10:44.100 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 20:10:44.243 [main] MainDriver - Webelement not found : logout
+[ERROR] 2022-03-25 20:10:44.243 [main] MainDriver - Exception in LoginElements --> logout : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PUN-LAP-DHOBALE', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162629864dd62499565414493276a05d, findElement {using=xpath, value=//a[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RAHUL~1.DHO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62834/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 162629864dd62499565414493276a05d
+[INFO ] 2022-03-25 20:10:44.351 [main] MainDriver - Failed to click on WebElement and wait
+[INFO ] 2022-03-25 20:10:44.544 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-29 15:35:46.231 [main] MainDriver - 
+------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-29 15:35:46.272 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-29 15:35:47.717 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-29 15:35:58.644 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-29 15:35:58.728 [main] MainDriver - Successfully entered in textbox --> Admin
+[INFO ] 2022-03-29 15:35:58.746 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-29 15:35:58.818 [main] MainDriver - Successfully entered in textbox --> MockMsys@123
+[INFO ] 2022-03-29 15:35:58.843 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-29 15:36:08.865 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 15:36:08.933 [main] MainDriver - Text : Welcome is present on the current page
+[INFO ] 2022-03-29 15:36:08.933 [main] MainDriver - Logged in to OrangeHRM successfully
+[INFO ] 2022-03-29 15:36:08.956 [main] MainDriver - Webelement found --> logout_welcome
+[INFO ] 2022-03-29 15:36:10.015 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 15:36:10.036 [main] MainDriver - Webelement found --> logout
+[INFO ] 2022-03-29 15:36:12.819 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 15:36:12.932 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-29 15:56:20.431 [main] MainDriver - 
+------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-29 15:56:20.465 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-29 15:56:25.528 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-29 15:56:30.877 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-29 15:56:30.969 [main] MainDriver - Successfully entered in textbox --> Admin
+[INFO ] 2022-03-29 15:56:30.997 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-29 15:56:31.072 [main] MainDriver - Successfully entered in textbox --> MockMsys@123
+[INFO ] 2022-03-29 15:56:31.102 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-29 15:56:36.489 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 15:56:36.563 [main] MainDriver - Text : Welcome is present on the current page
+[INFO ] 2022-03-29 15:56:36.565 [main] MainDriver - Logged in to OrangeHRM successfully
+[INFO ] 2022-03-29 15:56:36.610 [main] MainDriver - Webelement found --> logout_welcome
+[INFO ] 2022-03-29 15:56:37.661 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 15:56:37.692 [main] MainDriver - Webelement found --> logout
+[INFO ] 2022-03-29 15:56:40.574 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 15:56:40.763 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-29 18:38:26.578 [main] MainDriver - 
+------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-29 18:38:26.610 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-29 18:38:32.081 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-29 18:38:38.224 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-29 18:38:38.335 [main] MainDriver - Successfully entered in textbox --> Admin
+[INFO ] 2022-03-29 18:38:38.365 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-29 18:38:38.441 [main] MainDriver - Successfully entered in textbox --> MockMsys@123
+[INFO ] 2022-03-29 18:38:38.472 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-29 18:38:43.646 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 18:38:43.728 [main] MainDriver - Text : Welcome is present on the current page
+[INFO ] 2022-03-29 18:38:43.730 [main] MainDriver - Logged in to OrangeHRM successfully
+[INFO ] 2022-03-29 18:38:43.778 [main] MainDriver - Webelement found --> logout_welcome
+[INFO ] 2022-03-29 18:38:44.846 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 18:38:44.875 [main] MainDriver - Webelement found --> logout
+[INFO ] 2022-03-29 18:38:47.508 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 18:38:47.726 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-29 20:44:20.667 [main] MainDriver - 
+------------------------viewMyTimesheetsPage-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-29 20:44:20.672 [main] MainDriver - ---------------------------||viewMyTimesheetsPage||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-29 20:44:22.508 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-29 20:44:29.183 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-29 20:44:29.265 [main] MainDriver - Successfully entered in textbox --> Admin
+[INFO ] 2022-03-29 20:44:29.288 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-29 20:44:29.355 [main] MainDriver - Successfully entered in textbox --> MockMsys@123
+[INFO ] 2022-03-29 20:44:29.375 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-29 20:44:35.070 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 20:44:35.102 [main] MainDriver - Text : Welcome is present on the current page
+[INFO ] 2022-03-29 20:44:35.102 [main] MainDriver - Login to OrangeHRM successfully
+[INFO ] 2022-03-29 20:45:04.922 [main] MainDriver - Successfully hovered on element : Time
+[INFO ] 2022-03-29 20:45:11.508 [main] MainDriver - Successfully hovered on element : Timesheets
+[INFO ] 2022-03-29 20:45:34.031 [main] MainDriver - Failed to click on webelement
+[INFO ] 2022-03-29 20:46:29.609 [main] MainDriver - Successfully hovered on element : Time
+[INFO ] 2022-03-29 20:46:33.237 [main] MainDriver - Successfully hovered on element : Timesheets
+[INFO ] 2022-03-29 20:46:51.020 [main] MainDriver - Navigated to the Option : My Timesheets
+[INFO ] 2022-03-29 20:46:51.053 [main] MainDriver - Webelement found --> logout_welcome
+[INFO ] 2022-03-29 20:46:52.135 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 20:46:52.159 [main] MainDriver - Webelement found --> logout
+[INFO ] 2022-03-29 20:46:54.781 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-29 20:46:54.969 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-30 10:09:57.199 [main] MainDriver - 
+------------------------viewMyTimesheetsPage-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-30 10:09:57.206 [main] MainDriver - ---------------------------||viewMyTimesheetsPage||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-30 10:09:58.757 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-30 10:10:41.662 [main] MainDriver - Failed to Setup Before Test
+[INFO ] 2022-03-30 10:11:43.758 [main] MainDriver - 
+------------------------viewMyTimesheetsPage-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-30 10:11:43.762 [main] MainDriver - ---------------------------||viewMyTimesheetsPage||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-30 10:11:45.054 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-30 10:11:55.051 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-30 10:11:55.119 [main] MainDriver - Successfully entered in textbox --> Admin
+[INFO ] 2022-03-30 10:11:55.135 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-30 10:11:55.184 [main] MainDriver - Successfully entered in textbox --> MockMsys@123
+[INFO ] 2022-03-30 10:11:55.197 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-30 10:12:05.503 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-30 10:12:05.533 [main] MainDriver - Text : Welcome is present on the current page
+[INFO ] 2022-03-30 10:12:05.533 [main] MainDriver - Login to OrangeHRM successfully
+[INFO ] 2022-03-30 10:13:21.546 [main] MainDriver - Successfully hovered on element : Time
+[INFO ] 2022-03-30 10:13:26.676 [main] MainDriver - Successfully hovered on element : Timesheets
+[INFO ] 2022-03-30 10:13:38.387 [main] MainDriver - Navigated to the Option : My Timesheets
+[INFO ] 2022-03-30 10:13:43.359 [main] MainDriver - Webelement found --> logout_welcome
+[INFO ] 2022-03-30 10:13:44.409 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-30 10:13:44.427 [main] MainDriver - Webelement found --> logout
+[INFO ] 2022-03-30 10:13:47.177 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-30 10:13:47.306 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-30 10:45:05.007 [main] MainDriver - 
+------------------------viewMyTimesheetsPage-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-30 10:45:05.014 [main] MainDriver - ---------------------------||viewMyTimesheetsPage||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-30 10:45:08.042 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-30 10:45:14.658 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-30 10:45:14.728 [main] MainDriver - Successfully entered in textbox --> Admin
+[INFO ] 2022-03-30 10:45:14.750 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-30 10:45:14.821 [main] MainDriver - Successfully entered in textbox --> MockMsys@123
+[INFO ] 2022-03-30 10:45:14.841 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-30 10:45:20.742 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-30 10:45:20.774 [main] MainDriver - Text : Welcome is present on the current page
+[INFO ] 2022-03-30 10:45:20.774 [main] MainDriver - Login to OrangeHRM successfully
+[INFO ] 2022-03-30 10:47:40.517 [main] MainDriver - Clicked on Element successfully : My Timesheets
+[INFO ] 2022-03-30 10:47:51.438 [main] MainDriver - Navigated to the Option : My Timesheets
+[INFO ] 2022-03-30 10:48:47.392 [main] MainDriver - Webelement found --> logout_welcome
+[INFO ] 2022-03-30 10:48:48.467 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-30 10:48:48.489 [main] MainDriver - Webelement found --> logout
+[INFO ] 2022-03-30 10:48:51.214 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-30 10:48:51.400 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2022-03-30 11:27:04.098 [main] MainDriver - 
+------------------------viewMyTimesheetsPage-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2022-03-30 11:27:04.101 [main] MainDriver - ---------------------------||viewMyTimesheetsPage||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2022-03-30 11:27:05.615 [main] MainDriver - Chrome Browser launched successfully 
+[INFO ] 2022-03-30 11:27:12.565 [main] MainDriver - Webelement found --> login_userId
+[INFO ] 2022-03-30 11:27:12.623 [main] MainDriver - Successfully entered in textbox --> Admin
+[INFO ] 2022-03-30 11:27:12.639 [main] MainDriver - Webelement found --> login_password
+[INFO ] 2022-03-30 11:27:12.688 [main] MainDriver - Successfully entered in textbox --> MockMsys@123
+[INFO ] 2022-03-30 11:27:12.701 [main] MainDriver - Webelement found --> login_button
+[INFO ] 2022-03-30 11:27:18.225 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-30 11:27:18.258 [main] MainDriver - Text : Welcome is present on the current page
+[INFO ] 2022-03-30 11:27:18.259 [main] MainDriver - Login to OrangeHRM successfully
+[INFO ] 2022-03-30 11:27:55.603 [main] MainDriver - Clicked on Element successfully : My Timesheets
+[INFO ] 2022-03-30 11:27:55.611 [main] MainDriver - Navigated to the Option : My Timesheets
+[INFO ] 2022-03-30 11:28:29.633 [main] MainDriver - Webelement found --> time_myTimesheets_periodDropdown
+[INFO ] 2022-03-30 11:28:30.836 [main] MainDriver - Successfully selected dropdown --> 2022-03-28 to 2022-04-03
+[INFO ] 2022-03-30 11:29:30.213 [main] MainDriver - WebElement is present
+[INFO ] 2022-03-30 11:32:03.991 [main] MainDriver - Records present in My TImesheet for Period : 2022-03-28 to 2022-04-03 is : 1
+[INFO ] 2022-03-30 11:32:04.028 [main] MainDriver - Webelement found --> logout_welcome
+[INFO ] 2022-03-30 11:32:05.105 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-30 11:32:05.125 [main] MainDriver - Webelement found --> logout
+[INFO ] 2022-03-30 11:32:07.779 [main] MainDriver - Successfully clicked on element 
+[INFO ] 2022-03-30 11:32:07.965 [main] MainDriver - All Browsers closed successfully

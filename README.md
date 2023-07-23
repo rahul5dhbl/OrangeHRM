@@ -1,2 +1,0 @@
-# OrangeHRM
-Orange HRM Automation
