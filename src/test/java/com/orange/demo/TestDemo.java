@@ -35,6 +35,7 @@ public class TestDemo extends MainDriver {
 	public static void main(String[] args) {
 		String testName = "loginToOrangeHRM";
 		String classPath = "com.orange.testcases.Login";
+		System.out.println(testName);
 		// createXMLfile(testName, "com.orange.testcases.Login");
 		// createAndRunXMLfileForSingleTest(testName, classPath);
 		prpTest = GenericActions.getProperties("./TestData.properties");

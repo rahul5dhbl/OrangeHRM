@@ -5,6 +5,7 @@
     <classes>
       <class name="com.orange.testcases.Login">
         <methods>
+          <include name="setUpBeforeTest"/>
           <include name="setUpBeforeSuite"/>
           <include name="loginToOrangeHRM"/>
         </methods>

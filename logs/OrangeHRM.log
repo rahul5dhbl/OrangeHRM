@@ -540,3 +540,13 @@ Session ID: 162629864dd62499565414493276a05d
 [INFO ] 2022-03-30 11:32:05.125 [main] MainDriver - Webelement found --> logout
 [INFO ] 2022-03-30 11:32:07.779 [main] MainDriver - Successfully clicked on element 
 [INFO ] 2022-03-30 11:32:07.965 [main] MainDriver - All Browsers closed successfully
+[INFO ] 2023-07-23 20:59:15.697 [main] MainDriver - 
+------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2023-07-23 20:59:15.705 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
+[INFO ] 2023-07-23 21:42:50.604 [main] MainDriver - 
+------------------------loginToOrangeHRM-----------------
+----------------------Test Case STarted------------------
+[INFO ] 2023-07-23 21:42:50.608 [main] MainDriver - ---------------------------||loginToOrangeHRM||------------------------------ 
+-------------------------||Test Case Started||------------------------
