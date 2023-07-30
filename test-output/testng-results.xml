@@ -2,16 +2,16 @@
 <testng-results total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-23T16:12:50Z" name="Suite" finished-at="2023-07-23T16:12:50Z" duration-ms="27">
+  <suite started-at="2023-07-30T09:53:50Z" name="Suite" finished-at="2023-07-30T09:53:50Z" duration-ms="33">
     <groups>
     </groups>
-    <test started-at="2023-07-23T16:12:50Z" name="Test" finished-at="2023-07-23T16:12:50Z" duration-ms="27">
+    <test started-at="2023-07-30T09:53:50Z" name="Test" finished-at="2023-07-30T09:53:50Z" duration-ms="33">
       <class name="com.orange.testcases.Login">
-        <test-method is-config="true" signature="setUpBeforeSuite()[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-23T21:42:50Z" name="setUpBeforeSuite" finished-at="2023-07-23T21:42:50Z" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="setUpBeforeSuite()[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-30T15:23:50Z" name="setUpBeforeSuite" finished-at="2023-07-30T15:23:50Z" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeSuite -->
-        <test-method is-config="true" signature="setUpBeforeTest(java.lang.String)[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-23T21:42:50Z" name="setUpBeforeTest" finished-at="2023-07-23T21:42:50Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="setUpBeforeTest(java.lang.String)[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-30T15:23:50Z" name="setUpBeforeTest" finished-at="2023-07-30T15:23:50Z" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -81,15 +81,15 @@ Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.devtools.HasDev
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeTest -->
-        <test-method signature="loginToOrangeHRM()[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-23T21:42:50Z" name="loginToOrangeHRM" finished-at="2023-07-23T21:42:50Z" duration-ms="0" status="SKIP">
+        <test-method signature="loginToOrangeHRM()[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-30T15:23:50Z" name="loginToOrangeHRM" finished-at="2023-07-30T15:23:50Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToOrangeHRM -->
-        <test-method is-config="true" signature="tearDownAfterTest()[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-23T21:42:50Z" name="tearDownAfterTest" finished-at="2023-07-23T21:42:50Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDownAfterTest()[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-30T15:23:50Z" name="tearDownAfterTest" finished-at="2023-07-30T15:23:50Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterTest -->
-        <test-method is-config="true" signature="tearDownAfterSuite()[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-23T21:42:50Z" name="tearDownAfterSuite" finished-at="2023-07-23T21:42:50Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDownAfterSuite()[pri:0, instance:com.orange.testcases.Login@1b5bc39d]" started-at="2023-07-30T15:23:50Z" name="tearDownAfterSuite" finished-at="2023-07-30T15:23:50Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterSuite -->
