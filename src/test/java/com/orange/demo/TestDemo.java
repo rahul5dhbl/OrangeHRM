@@ -44,8 +44,7 @@ public class TestDemo extends MainDriver {
 		String dataSheet = prpTest.getProperty("testDataSheet");
 		testData = ExcelActions.ReadDataFromExcelInMap(testDataPath, dataSheet);
 		createAndRunXMLfileForSingleTest(testName, classPath);
-		// createAndRunXMLfileForMultipleTestsInSingleClass(testData,
-		// "com.orange.testcases.Login");
+		//createAndRunXMLfileForMultipleTestsInSingleClass(testData, "com.orange.testcases.Login");
 	}
 
 	public static Map<String, String> createMapForClass(String classPath) {
