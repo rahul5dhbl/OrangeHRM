@@ -35,7 +35,7 @@ public class TestDemo extends MainDriver {
 	public static void main(String[] args) {
 		String testName = "loginToOrangeHRM";
 		String classPath = "com.orange.testcases.Login";
-		System.out.println("Test Case Name : "+testName);
+		System.out.println(testName);
 		// createXMLfile(testName, "com.orange.testcases.Login");
 		// createAndRunXMLfileForSingleTest(testName, classPath);
 		prpTest = GenericActions.getProperties("./TestData.properties");
@@ -44,7 +44,8 @@ public class TestDemo extends MainDriver {
 		String dataSheet = prpTest.getProperty("testDataSheet");
 		testData = ExcelActions.ReadDataFromExcelInMap(testDataPath, dataSheet);
 		createAndRunXMLfileForSingleTest(testName, classPath);
-		//createAndRunXMLfileForMultipleTestsInSingleClass(testData, "com.orange.testcases.Login");
+		// createAndRunXMLfileForMultipleTestsInSingleClass(testData,
+		// "com.orange.testcases.Login");
 	}
 
 	public static Map<String, String> createMapForClass(String classPath) {
